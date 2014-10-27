@@ -1,0 +1,3 @@
+---
+- name: Install daemontools
+  apt: pkg=daemontools={{ daemontools_version }} state=present
